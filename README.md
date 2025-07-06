@@ -1,0 +1,1 @@
+Hi! this is a project called "VRLearn" made for a class called "Digital Business". The aim for this project is to show our business idea and to create a website of how this product can be purchased and if all the information on the product itself, for parents, educators and students alike. :)
