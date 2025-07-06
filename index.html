@@ -1,48 +1,215 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>VRLearn – Immersive Education</title>
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VRLearn - Immersive VR Education</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>VRLearn</h1>
-    <nav>
-      <a href="#">Subjects</a>
-      <a href="#">For Educators</a>
-      <a href="#">For Parents</a>
-      <a href="#">Pricing</a>
-      <a href="#">FAQ</a>
-      <a href="#">Contact</a>
-      <button>Start Free Trial</button>
-    </nav>
-  </header>
+<div class="page-transition-overlay"></div>
 
-  <section class="hero">
-    <h2>Experience Learning Like Never Before</h2>
-    <p>Step into Ancient Rome, the bloodstream, or space — all from your VR headset.</p>
-    <button>Start Free Trial</button>
-  </section>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="VRLearn Logo" class="logo-img">
+                <span>VRLearn</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="subjects.html">Subjects</a></li>
+                <li><a href="educators.html">For Educators</a></li>
+                <li><a href="parents.html">For Parents</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+             <a href="signup.html" class="cta-button nav-cta">Start Free Trial</a>
+        </nav>
+    </header>
 
-  <section class="features">
-    <div>
-      <h3>Choose a Module</h3>
-      <p>Select from history, biology, space and more</p>
-    </div>
-    <div>
-      <h3>Enter VR</h3>
-      <p>Immerse yourself in a virtual world</p>
-    </div>
-    <div>
-      <h3>Learn by Doing</h3>
-      <p>Interact, explore, and retain more</p>
-    </div>
-  </section>
+    <main>
+        <!-- Hero Section -->
+        <section class="hero" style="background-image: url('hero-background.png');">
+            <div class="hero-content container">
+                <h1>Immersive Learning, Real Understanding</h1>
+                <p>Immersive VR education from VRLearn that transforms how you understand the world.</p>
+                <div class="hero-cta">
+                    <a href="signup.html" class="cta-button">Start Free Trial</a>
+                    <a href="subjects.html" class="cta-button secondary">See It in Action</a>
+                </div>
+            </div>
+        </section>
 
-  <footer>
-    <p>© 2025 VRLearn | Made for education</p>
-  </footer>
+        <!-- How It Works Section -->
+        <section class="how-it-works container homepage-section">
+            <h2>How It Works</h2>
+            <div class="steps">
+                <div class="step">
+                    <img src="step-1.png" alt="Icon for choosing a subject">
+                    <h3>1. Choose a subject</h3>
+                    <p>Browse our library of curriculum-aligned modules, from ancient history to deep space.</p>
+                </div>
+                <div class="step">
+                    <img src="step-2.png" alt="Icon for entering a virtual world">
+                    <h3>2. Enter a virtual world</h3>
+                    <p>Put on any VR headset and step directly into your lesson. No complex setup needed.</p>
+                </div>
+                <div class="step">
+                    <img src="step-3.png" alt="Icon for learning by doing">
+                    <h3>3. Learn by doing</h3>
+                    <p>Interact with your environment, conduct experiments, and learn complex topics intuitively.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Snapshot Section -->
+        <section class="features-snapshot homepage-section">
+            <div class="container">
+                <h2>Unlike Any Other Learning Platform</h2>
+                 <div class="features-grid">
+                    <div class="feature-item">
+                        <h4>Curriculum-Aligned Content</h4>
+                        <p>Our modules are built by educators to match school standards.</p>
+                    </div>
+                     <div class="feature-item">
+                        <h4>Works on Any VR Headset</h4>
+                        <p>Accessible on all major platforms, including Meta Quest, HTC Vive, and more.</p>
+                    </div>
+                     <div class="feature-item">
+                        <h4>Real-Time Feedback</h4>
+                        <p>Instantaneous quizzes and haptic feedback to guide learning.</p>
+                    </div>
+                     <div class="feature-item">
+                        <h4>Offline Access</h4>
+                        <p>Download modules and learn anywhere, even without an internet connection.</p>
+                    </div>
+                     <div class="feature-item">
+                        <h4>Educator Dashboards</h4>
+                        <p>Powerful tools for teachers to track progress and manage classrooms.</p>
+                    </div>
+                     <div class="feature-item">
+                        <h4>Safe & Secure</h4>
+                        <p>A private, controlled environment designed for learning.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Who It's For Section -->
+        <section class="who-its-for container homepage-section">
+            <h2>Who Benefits from VRLearn?</h2>
+            <div class="beneficiary-cards">
+                <div class="card">
+                    <h3>Schools & Universities</h3>
+                    <p>Enhance classroom engagement, improve retention rates, and make complex subjects accessible to all students.</p>
+                    <a href="educators.html" class="learn-more">Learn more for educators &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Parents</h3>
+                    <p>Supplement your child's learning at home with educational experiences that are as engaging as they are effective.</p>
+                     <a href="parents.html" class="learn-more">Learn more for parents &rarr;</a>
+                </div>
+                <div class="card">
+                    <h3>Students</h3>
+                    <p>Explore, discover, and learn in a visual, interactive way that makes studying feel like an adventure.</p>
+                    <a href="subjects.html" class="learn-more">Explore subjects &rarr;</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="testimonials-slider homepage-section">
+            <div class="container">
+                <h2>What Our Users Say</h2>
+                <div class="slider-container">
+                    <div class="slider-track">
+                        <!-- Testimonial 1: Teacher -->
+                        <div class="testimonial-slide active">
+                            <div class="testimonial-content">
+                                <img src="testimonial-teacher.png" alt="Photo of a teacher" class="testimonial-img">
+                                <blockquote>
+                                    “My students retained 30% more information after just one immersive lesson. It's a game-changer for biology.”
+                                </blockquote>
+                            </div>
+                        </div>
+                        <!-- Testimonial 2: Parent -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <img src="testimonial-parent.png" alt="Photo of a parent" class="testimonial-img">
+                                <blockquote>
+                                    “As a parent, I was looking for something educational that my son would actually enjoy. VRLearn is perfect. He thinks he's playing a game, but he's acing his science tests.”
+                                </blockquote>
+                            </div>
+                        </div>
+                        <!-- Testimonial 3: Student -->
+                        <div class="testimonial-slide">
+                            <div class="testimonial-content">
+                                <img src="testimonial-student.png" alt="Photo of a student" class="testimonial-img">
+                                <blockquote>
+                                    “Learning about Ancient Rome by actually walking through the Colosseum was so much cooler than reading a textbook. I wish all my classes were like this!”
+                                </blockquote>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slider-dots">
+                        <!-- Dots will be generated by JS -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Banner Section -->
+        <section class="cta-banner homepage-section">
+            <div class="container">
+                <h2>Ready to reimagine education?</h2>
+                <p>Start your free trial today and experience the future of learning.</p>
+                <a href="signup.html" class="cta-button">Start Your Free Trial</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="index.html" class="logo-link">
+                        <img src="logo.png" alt="VRLearn Logo" class="logo-img">
+                        <span>VRLearn</span>
+                    </a>
+                    <p>Immersive Learning, Real Understanding</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="educators.html">For Educators</a></li>
+                         <li><a href="parents.html">For Parents</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Get monthly learning tips and free module previews.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">&rarr;</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 VRLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>

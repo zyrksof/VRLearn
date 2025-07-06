@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subjects Library - VRLearn</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+<div class="page-transition-overlay"></div>
+
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo-link">
+                <img src="logo.png" alt="VRLearn Logo" class="logo-img">
+                <span>VRLearn</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="subjects.html" class="active">Subjects</a></li>
+                <li><a href="educators.html">For Educators</a></li>
+                <li><a href="parents.html">For Parents</a></li>
+                <li><a href="pricing.html">Pricing</a></li>
+                <li><a href="faq.html">FAQ</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+             <a href="signup.html" class="cta-button nav-cta">Start Free Trial</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="page-header">
+            <div class="container">
+                <h1>Subjects Library</h1>
+                <p>Explore our growing library of immersive learning modules. Don't just study a topic—experience it firsthand.</p>
+            </div>
+        </section>
+
+        <section class="container subjects-page-content">
+            <div class="filters">
+                <button class="filter-btn active">All</button>
+                <button class="filter-btn">History</button>
+                <button class="filter-btn">Biology</button>
+                <button class="filter-btn">Astronomy</button>
+                <button class="filter-btn">Mathematics</button>
+            </div>
+
+            <div class="subjects-grid">
+                <!-- Subject Card 1 -->
+                <div class="subject-card" data-category="Astronomy">
+                    <img src="subject-astronomy.png" alt="A virtual reality view of walking on Mars">
+                    <div class="subject-card-content">
+                        <h3>Astronomy: A Walk on Mars</h3>
+                        <p class="age-group">Suggested Age Group: 12+</p>
+                        <p>Experience the Red Planet. Collect rock samples, analyze the atmosphere, and witness a Martian sunset in this stunning simulation.</p>
+                        <a href="subject-astronomy.html" class="cta-button secondary">View Module</a>
+                    </div>
+                </div>
+
+                <!-- Subject Card 2 -->
+                <div class="subject-card" data-category="Biology">
+                    <img src="subject-biology.png" alt="A virtual reality view from inside a human blood vessel">
+                    <div class="subject-card-content">
+                        <h3>Biology: Journey Through the Cell</h3>
+                        <p class="age-group">Suggested Age Group: 14+</p>
+                        <p>Shrink down to the microscopic level and explore the inner workings of a human cell. See mitochondria at work and watch DNA replicate.</p>
+                        <a href="subject-biology.html" class="cta-button secondary">View Module</a>
+                    </div>
+                </div>
+
+                <!-- Subject Card 3 -->
+                <div class="subject-card" data-category="History">
+                    <img src="subject-history.png" alt="A virtual reality view of the Roman Forum">
+                    <div class="subject-card-content">
+                        <h3>History: A Day in Ancient Rome</h3>
+                        <p class="age-group">Suggested Age Group: 10+</p>
+                        <p>Walk the streets of the Roman Forum in 100 A.D. Interact with citizens, visit the Colosseum, and learn about daily life in the Empire.</p>
+                        <a href="subject-history.html" class="cta-button secondary">View Module</a>
+                    </div>
+                </div>
+
+                <!-- Subject Card 4 -->
+                <div class="subject-card" data-category="Mathematics">
+                    <img src="subject-mathematics.png" alt="A virtual reality environment for learning geometry">
+                    <div class="subject-card-content">
+                        <h3>Mathematics: Immersive Geometry</h3>
+                        <p class="age-group">Suggested Age Group: 13+</p>
+                        <p>Build, measure, and solve in a world where geometric shapes come to life. Understand area, volume, and theorems intuitively.</p>
+                        <a href="subject-mathematics.html" class="cta-button secondary">View Module</a>
+                    </div>
+                </div>
+                
+                 <!-- Add more cards as needed -->
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="index.html" class="logo-link">
+                        <img src="logo.png" alt="VRLearn Logo" class="logo-img">
+                        <span>VRLearn</span>
+                    </a>
+                    <p>Immersive Learning, Real Understanding</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="educators.html">For Educators</a></li>
+                         <li><a href="parents.html">For Parents</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h4>Newsletter</h4>
+                    <p>Get monthly learning tips and free module previews.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your email">
+                        <button type="submit">&rarr;</button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 VRLearn. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
